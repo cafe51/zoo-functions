@@ -15,20 +15,6 @@ function getAnimalsOlderThan(animal, age) {
     .every((element) => element > age);
 }
 
-
-
-
-
-
-// function achaAnimais(animal) {
-//   return species.reduce((acc, result) => {
-//     if (result.name === animal) {
-//       return acc;
-//     }
-//     return acc;
-//   }).residents;
-// }
-
 console.log(getAnimalsOlderThan('penguins', 10));
 // console.log(achaAnimais('lions'));
 
