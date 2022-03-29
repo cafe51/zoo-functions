@@ -8,4 +8,6 @@ function calculateEntry(entrants) {
   // seu código aqui
 }
 
+console.log(data.species[0].name);
+
 module.exports = { calculateEntry, countEntrants };
