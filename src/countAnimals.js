@@ -30,6 +30,4 @@ function countAnimals(parametro) {
   return porSexo.length;
 }
 
-console.log(countAnimals());
-
 module.exports = countAnimals;
